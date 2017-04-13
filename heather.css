@@ -240,6 +240,10 @@ legend {
       width: 970px;
     }
 
+    .row.content {
+      padding-bottom: 5px;
+    }
+
     .no-gutter > [class*='col-'] {
       padding-right:0;
       padding-left:0;
@@ -344,7 +348,7 @@ legend {
 
 } /* end css for medium devices */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
 
   .container {
         width: 1170px;
