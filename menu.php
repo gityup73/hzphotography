@@ -12,25 +12,25 @@
     <div class="collapse navbar-collapse" id="myNavbar">
     	<ul class="nav navbar-nav">
           <li<?php if ($page=="index") echo " class=\"active\""; ?>>
-            <a href="index.html">HOME</a></li>
+            <a href="index.php">HOME</a></li>
 
           <li<?php if ($page=="family") echo " class=\"active\""; ?>>
-	        <a href="family.html">FAMILY</a></li>
+	        <a href="family.php">FAMILY</a></li>
 
 	      <li<?php if ($page=="children") echo " class=\"active\""; ?>>
-	        <a href="children.html">CHILDREN</a></li>
+	        <a href="children.php">CHILDREN</a></li>
 
 	      <li<?php if ($page=="pets") echo " class=\"active\""; ?>>
-	        <a href="pets.html">PETS</a></li> 
+	        <a href="pets.php">PETS</a></li> 
 
 	      <li<?php if ($page=="sports") echo " class=\"active\""; ?>>
-	        <a href="sports.html">SPORTS</a></li>
+	        <a href="sports.php">SPORTS</a></li>
 
 	      <li class="dropdown" <?php if ($page=="bio") echo " class=\" active\""; ?>>
-	        <a class="dropdown-toggle disabled" data-toggle="dropdown" data-hover="dropdown" href="bio.html">BIO</a>
+	        <a class="dropdown-toggle disabled" data-toggle="dropdown" data-hover="dropdown" href="bio.php">BIO</a>
             <ul class="dropdown-menu">
               <li<?php if ($page=="contact") echo " class=\"active\""; ?>>
-                <a href="contact.html">CONTACT</a></li>
+                <a href="contact_view.php">CONTACT</a></li>
             </ul>
 	      </li>
 	      
