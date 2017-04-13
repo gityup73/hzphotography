@@ -1,0 +1,374 @@
+/****** navbar styling *****/
+.navbar {
+	height: 20px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  padding-top: 15px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  overflow-y: visible !important;
+}
+
+.navbar-header>button {
+	width:auto;
+}
+
+.nav>li>a {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.nav.navbar-nav li a {
+  color: #58dcee;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+}
+
+.navbar .navbar-nav .dropdown-menu {
+  background-color: #58dcee;
+}
+
+.navbar .navbar-nav .dropdown-menu li a {
+  color: black;
+}
+
+.dropdown:hover .dropdown-menu  {
+  display: block;
+}
+/***** end navbar *****/
+
+/**** mobile first css ****/
+body {
+	background-color: #000000;
+	padding-top: 70px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  position: relative;
+}
+
+.row.content {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border: 2px solid #58dcee;
+  border-radius: 2px;
+}
+
+.container-fluid {
+	background-color: #000000;
+}
+
+footer {
+  color: #808080;
+  margin-top: 520px;
+  text-align: center;
+  height: 20px;
+}
+
+#index-logo-col, #bio-col1, #bio-col2, #bio-col3, #contact-col1 {
+  background-color: #fff;
+  text-align: center;
+  padding: 0px;
+}
+
+/**** index/bio/contact page logo sm device ****/
+.logo {
+  width: 100%;
+  padding: 3px;
+  margin: 0;
+  text-align: center;
+}
+
+.logo img{
+  max-width: 90%;
+  height: auto;
+}
+
+/**** index page slideshow column ****/
+.col-sm-7 {
+  padding: 0;
+  min-height: 415px;
+}
+
+.slideshow {
+  background-color: #fff;
+  width: 100%;
+  margin: auto;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.slideshow img {
+  object-fit: contain;
+  min-width: 100%;
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  padding: 3%;
+  background-color: #fff;
+}
+/**** end index slideshow col ****/
+
+/**** carousel css on family/children/pets/sports pages ****/
+#myCarousel {
+	background-color: #58dcee ;
+  min-height: 320px;
+}
+
+.carousel-hdr {
+  color: #58dcee;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.carousel-inner {
+  margin: auto;
+  min-height: 320px;
+  text-align: center;
+  width: 70%;
+}
+
+.item {
+  min-height: 320px;
+}
+
+.item img {
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 3px 3px 3px grey;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid darkgrey;
+}
+/******** end carousel css **********/
+
+/**** bio page ****/
+#bio-col3 {
+  font-size: 12px;
+  color: #000000;
+}
+
+/**** contact page pricing and form columns ****/
+.pricing, #form-col {
+  text-align:center;
+  padding: 0px;
+  margin: auto;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+legend {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+#divider {
+  height: 1px;
+  background-color: #e6e6e6;
+  width: 100%;
+}
+
+/**** contact page form ****/
+#glyphlinks {
+  margin-right: 10px;
+  color: #000000;
+}
+
+#hz-email {
+  font-size: 11px;
+  width: 100%;
+}
+
+#contactinfo {
+  width: 100%;
+  text-align: center;
+}
+
+#contact-form {
+  align-self:center;
+  background: #a2ecf6;
+  width: 98%;
+  margin: auto;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="tel"], #contact-form input[type="url"], #contact-form textarea {
+  width:90%;
+  border:1px solid #CCC;
+  background:#FFF;
+  margin:0 0 5px;
+  padding:3px;
+}
+
+#btn-align {
+  text-align: center;
+}
+
+#contact-form input[type="submit"]{
+  width: 50%;
+  border: 1px solid #000000;
+  letter-spacing: 0.15em;
+  border-radius: 4px;
+  background-color: #a2ecf6;
+}
+/**** end contact page form ****/
+
+/******************* css for medium devices **********************/
+@media screen and (min-width: 768px) {
+
+    .container {
+      width: 970px;
+    }
+
+    .no-gutter > [class*='col-'] {
+      padding-right:0;
+      padding-left:0;
+    }
+
+    #index-logo-col, #bio-col1, #bio-col2, #bio-col3, #contact-col1 {
+      height: 515px;   
+    }
+
+    /**** logo on index/bio/contact pages ****/
+    .logo {
+      width: 100%;
+      display: inline-block;
+      position: relative;
+      top: 45%;
+      transform: translateY(-50%);
+    }
+
+    /**** index page slideshow ****/
+    .slideshow {
+      height: 515px;
+      padding: 0px;
+    }
+
+    .slideshow img {
+      max-width: 100%;
+      height: 515px;
+      padding: 1%;
+    }
+    /**** end index page slideshow ****/
+
+    /**** carousel css on family/children/pets/sports pages ****/
+    #myCarousel {
+      min-height: 450px;
+    }
+
+    .carousel-inner {
+      min-height: 400px;
+    }
+
+    .item {
+      min-height: 400px;
+    }
+    /**** end larger screen carousel css ****/
+
+    /**** bio page css ****/
+    #bio-img img {
+      width: 90%;
+      margin: 15% 5%;
+    }
+   
+    #aboutHeather {
+      margin: 15% 5%;
+      border: 2px solid blue;
+    }
+    /**** end bio page ****/
+    
+    /**** contact page pricing ****/
+    #pricing-col, #form-col {
+      height: 515px;
+      padding: 2% 0 2% 0;
+    }
+
+    .pricing {
+      padding: 5%;
+    }
+    /**** end contact page pricing ****/
+
+    /****contact form css****/
+    #contact-form {
+      padding: 5%;
+    }
+
+    #contactinfo {
+      margin-top: 5%;
+    }
+
+    legend {
+      font-size: 16px;
+    }
+
+    #divider {
+      display: none;
+    }
+
+    .carousel-hdr {
+      display: none;
+    }
+
+    fieldset {
+      border: medium none !important;
+      margin: 0 0 10px;
+      min-width: 100%;
+      padding: 0;
+      width: 75%;
+    }
+
+    #contact-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="tel"], #contact-form input[type="url"], #contact-form textarea {
+      width:100%;
+    }
+   /*** end css for contact form ***/
+
+} /* end css for medium devices */
+
+@media screen and (min-width: 992px) {
+
+  .container {
+        width: 1170px;
+      }
+  }
+  /**** bio page css ****/
+
+  #bio-img {
+    margin-top: 5px;
+  }
+
+  #bio-img img {
+    width: 90%;
+    margin: 2% 5%;
+  }
+ 
+  #aboutHeather {
+    margin: 2% 5%;
+    border: 2px solid blue;
+  }
+  /**** end bio page ****/
+
+
+
+
+
+
+
