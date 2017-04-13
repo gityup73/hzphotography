@@ -64,9 +64,10 @@
         </fieldset>
       </form><!-- end contact form -->
     </div><!-- end col-sm-7 -->
+    <?php include('footer.php'); ?>
   </div><!-- end row -->
 
-  <?php include('footer.php'); ?>
+  
 
 </div><!-- end container -->
 
