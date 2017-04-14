@@ -39,9 +39,9 @@
   color: black;
 }
 
-.dropdown:hover .dropdown-menu  {
+/*.dropdown:hover .dropdown-menu  {
   display: block;
-}
+}*/
 /***** end navbar *****/
 
 /**** mobile first css ****/
@@ -235,6 +235,10 @@ legend {
 
 /******************* css for medium devices **********************/
 @media screen and (min-width: 768px) {
+
+    .dropdown:hover .dropdown-menu  {
+      display: block;
+    }
 
     .container {
       width: 970px;

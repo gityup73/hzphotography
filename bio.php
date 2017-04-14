@@ -16,7 +16,7 @@
     <div class="col-sm-4 " id="bio-col3">
       <div id="aboutHeather">
         <p>Place background info here...</p>
-        <p><a href="contact.php">Contact Me</a></p>
+        <p><a href="contact_view.php">Contact Me</a></p>
       </div>
     </div><!-- end col-sm-7 -->
   </div><!-- end row -->
