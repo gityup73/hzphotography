@@ -24,7 +24,7 @@
 	padding-right: 16px;
 }
 
-.nav.navbar-nav li a {
+.nav.navbar-nav li a{
   color: #58dcee;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -39,9 +39,6 @@
   color: black;
 }
 
-/*.dropdown:hover .dropdown-menu  {
-  display: block;
-}*/
 /***** end navbar *****/
 
 /**** mobile first css ****/
@@ -164,9 +161,23 @@ footer {
 /******** end carousel css **********/
 
 /**** bio page ****/
+.logo img, #bio-img img {
+  min-width: 70%;
+  height: auto;
+}
+
+#bio-col2 {
+  /*margin-top: 2%;*/
+}
+
 #bio-col3 {
   font-size: 12px;
   color: #000000;
+}
+
+#aboutheather {
+  margin: 5% 5%;
+  border: 2px solid blue;
 }
 
 /**** contact page pricing and form columns ****/
@@ -246,6 +257,7 @@ legend {
 
     .row.content {
       padding-bottom: 5px;
+      height: 515px;
     }
 
     .no-gutter > [class*='col-'] {
@@ -254,27 +266,28 @@ legend {
     }
 
     #index-logo-col, #bio-col1, #bio-col2, #bio-col3, #contact-col1 {
-      height: 515px;   
+      height: 511px;
     }
 
     /**** logo on index/bio/contact pages ****/
+    
     .logo {
-      width: 100%;
-      display: inline-block;
-      position: relative;
-      top: 45%;
-      transform: translateY(-50%);
+      height: 511px;
+    }
+
+    .logo img {
+      margin: 200px 0px;
     }
 
     /**** index page slideshow ****/
     .slideshow {
-      height: 515px;
+      height: 511px;
       padding: 0px;
     }
 
     .slideshow img {
       max-width: 100%;
-      height: 515px;
+      height: 511px;
       padding: 1%;
     }
     /**** end index page slideshow ****/
@@ -294,12 +307,18 @@ legend {
     /**** end larger screen carousel css ****/
 
     /**** bio page css ****/
+
+    #bio-img {
+      width: 100%;
+      height: 511px;
+      margin-top: 2%;
+    }
     #bio-img img {
       width: 90%;
       margin: 15% 5%;
     }
    
-    #aboutHeather {
+    #aboutheather {
       margin: 15% 5%;
       border: 2px solid blue;
     }
@@ -307,7 +326,7 @@ legend {
     
     /**** contact page pricing ****/
     #pricing-col, #form-col {
-      height: 515px;
+      height: 511px;
       padding: 2% 0 2% 0;
     }
 
@@ -357,26 +376,41 @@ legend {
   .container {
         width: 1170px;
       }
-  }
-  /**** bio page css ****/
 
-  #bio-img {
-    margin-top: 5px;
-  }
+  .row.content {
+      padding-bottom: 5px;
+      height: 604px;
+    }
+
+    .logo {
+      height: 600px;
+    }
+
+    .logo img {
+      margin: 56% 0px;
+    }
+  /**** bio page css ****/
 
   #bio-img img {
     width: 90%;
-    margin: 2% 5%;
+    margin: 5%;
   }
  
   #aboutHeather {
     margin: 2% 5%;
     border: 2px solid blue;
   }
+}
   /**** end bio page ****/
+/**** contact page pricing ****/
+  #pricing-col, #form-col {
+      height: 604px;
+  }
 
+  #contact-form {
+    height: 550px;
 
-
+  }
 
 
 
