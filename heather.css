@@ -42,16 +42,18 @@
 /************************* end navbar **************************/
 
 /**** mobile first css ****/
+
 body {
 	background-color: #000000;
 	padding-top: 70px;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   letter-spacing: 0.15em;
+  /*-webkit-text-size-adjust: none;*/
 }
 
 .container {
-  width: 90%;
+  width: 95%;
   height: 100%;
   position: relative;
 }
@@ -257,7 +259,7 @@ legend {
       height: 420px;
     }
 
-    #index-logo-col, #bio-col1, #bio-col2, #bio-col3, #contact-col1 {
+    #index-logo-col, #bio-col1, #bio-col2, #bio-col3, #contact-col1, #pricing-col, #form-col {
       height: 416px;
     }
 
@@ -320,7 +322,6 @@ legend {
     
     /**** contact page pricing tablets ****/
     #pricing-col, #form-col {
-      height: 416px;
       padding: 2% 0 2% 0;
     }
 
@@ -345,8 +346,7 @@ legend {
     #hz-email {
       font-size: 11px;
     }
-} /****** end css for tablets *************/
-
+}
 /******************* css for medium devices **********************/
 @media screen and (min-width: 992px) {
 
@@ -473,6 +473,7 @@ legend {
 
     #hz-email {
       font-size: 13px;
+      color: blue;
     }
    /*** end css for contact form ***/
 
@@ -518,7 +519,7 @@ legend {
     height: 550px;
 
   }
-}
+}/********* end css for large devices **********/
 
 
 
