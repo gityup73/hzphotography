@@ -2,7 +2,7 @@
 
 <body>
 
-<?php $page = 'contact'; include('menu.php'); include('contact.php'); ?>
+<?php $page = 'contact'; include('menu.php'); ?>
 
 <div class="container">
   <div class="row content no-gutter">

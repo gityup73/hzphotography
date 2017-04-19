@@ -35,7 +35,7 @@
   background-color: #58dcee;
 }
 
-.navbar .navbar-nav .dropdown-menu li a {
+.navbar .navbar-nav .open .dropdown-menu li a {
   color: black;
 }
 
@@ -244,8 +244,106 @@ legend {
 }
 /**** end contact page form ****/
 
+/******************* css for tablets ********************/
+@media screen and (min-width: 768px)  {
+  .row.content {
+      padding-bottom: 5px;
+      height: 420px;
+    }
+
+    #index-logo-col, #bio-col1, #bio-col2, #bio-col3, #contact-col1 {
+      height: 416px;
+    }
+
+    .logo {
+      height: 416px;
+    }
+
+    .logo img {
+      margin: 160px 0px;
+    }
+
+    /**** index page slideshow ****/
+    .slideshow {
+      height: 416px;
+      padding: 0px;
+    }
+
+    .slideshow img {
+      max-width: 100%;
+      height: 416px;
+      padding: 1%;
+    }
+    /**** end index page slideshow ****/
+
+   /**** carousel css on family/children/pets/sports pages ****/
+    #myCarousel {
+      min-height: 515px;
+    }
+
+    .carousel-inner {
+      min-height: 500px;
+    }
+
+    .item {
+      min-height: 500px;
+    }
+
+    .carousel-hdr {
+      display: none;
+    }
+    /**** end tablet carousel css ****/
+
+    /**** bio page css ****/
+
+    #bio-img {
+      width: 100%;
+      height: 416px;
+      margin-top: 10%;
+    }
+    #bio-img img {
+      width: 90%;
+      margin: 15% 5%;
+    }
+   
+    #aboutheather {
+      margin: 15% 5%;
+      border: 2px solid blue;
+    }
+    /**** end bio page ****/
+    
+    /**** contact page pricing ****/
+    #pricing-col, #form-col {
+      height: 416px;
+      padding: 2% 0 2% 0;
+    }
+
+    .pricing {
+      padding: 5%;
+    }
+    /**** end contact page pricing ****/
+
+    /****contact form css****/
+    #contact-form {
+      padding: 5%;
+    }
+
+    #contactinfo {
+      margin-top: 5%;
+    }
+
+    legend {
+      font-size: 16px;
+    }
+
+    #hz-email {
+      font-size: 7px;
+      width: 100%;
+    }
+} /****** end css for tablets *************/
+
 /******************* css for medium devices **********************/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 
     .dropdown:hover .dropdown-menu  {
       display: block;
@@ -276,7 +374,7 @@ legend {
     }
 
     .logo img {
-      margin: 200px 0px;
+      margin: 180px 0px;
     }
 
     /**** index page slideshow ****/
@@ -294,15 +392,15 @@ legend {
 
     /**** carousel css on family/children/pets/sports pages ****/
     #myCarousel {
-      min-height: 450px;
+      min-height: 515px;
     }
 
     .carousel-inner {
-      min-height: 400px;
+      min-height: 500px;
     }
 
     .item {
-      min-height: 400px;
+      min-height: 500px;
     }
     /**** end larger screen carousel css ****/
 
@@ -369,7 +467,7 @@ legend {
     }
    /*** end css for contact form ***/
 
-} /* end css for medium devices */
+} /****** end css for tablet devices *********/
 
 @media screen and (min-width: 1200px) {
 
