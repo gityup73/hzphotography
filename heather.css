@@ -39,7 +39,7 @@
   color: black;
 }
 
-/***** end navbar *****/
+/************************* end navbar **************************/
 
 /**** mobile first css ****/
 body {
@@ -96,7 +96,7 @@ footer {
   height: auto;
 }
 
-/**** index page slideshow column ****/
+/**** index page slideshow column sm device ****/
 .col-sm-7 {
   padding: 0;
   min-height: 415px;
@@ -119,9 +119,9 @@ footer {
   padding: 3%;
   background-color: #fff;
 }
-/**** end index slideshow col ****/
+/**** end index slideshow col sm device ****/
 
-/**** carousel css on family/children/pets/sports pages ****/
+/**** carousel css on family/children/pets/sports pages sm device****/
 #myCarousel {
 	background-color: #58dcee ;
   min-height: 320px;
@@ -158,9 +158,9 @@ footer {
   padding: 5px;
   border: 1px solid darkgrey;
 }
-/******** end carousel css **********/
+/******** end carousel css sm device **********/
 
-/**** bio page ****/
+/**** bio page sm device ****/
 .logo img, #bio-img img {
   min-width: 70%;
   height: auto;
@@ -180,7 +180,7 @@ footer {
   border: 2px solid blue;
 }
 
-/**** contact page pricing and form columns ****/
+/**** contact page pricing and form columns sm device ****/
 .pricing, #form-col {
   text-align:center;
   padding: 0px;
@@ -200,7 +200,7 @@ legend {
   width: 100%;
 }
 
-/**** contact page form ****/
+/**** contact page form sm device ****/
 #glyphlinks {
   margin-right: 10px;
   color: #000000;
@@ -242,7 +242,13 @@ legend {
   border-radius: 4px;
   background-color: #a2ecf6;
 }
-/**** end contact page form ****/
+
+#hz-email {
+      font-size: 13px;
+      width: 100%;
+      letter-spacing: 0;
+    }
+/**** end contact page form sm device ****/
 
 /******************* css for tablets ********************/
 @media screen and (min-width: 768px)  {
@@ -263,7 +269,7 @@ legend {
       margin: 160px 0px;
     }
 
-    /**** index page slideshow ****/
+    /**** index page slideshow tablets ****/
     .slideshow {
       height: 416px;
       padding: 0px;
@@ -274,9 +280,9 @@ legend {
       height: 416px;
       padding: 1%;
     }
-    /**** end index page slideshow ****/
+    /**** end index page slideshow tablets ****/
 
-   /**** carousel css on family/children/pets/sports pages ****/
+   /**** carousel css on family/children/pets/sports pages tablets ****/
     #myCarousel {
       min-height: 515px;
     }
@@ -292,9 +298,9 @@ legend {
     .carousel-hdr {
       display: none;
     }
-    /**** end tablet carousel css ****/
+    /**** end tablet carousel css tablets ****/
 
-    /**** bio page css ****/
+    /**** bio page css tablets ****/
 
     #bio-img {
       width: 100%;
@@ -310,9 +316,9 @@ legend {
       margin: 15% 5%;
       border: 2px solid blue;
     }
-    /**** end bio page ****/
+    /**** end bio page tablets ****/
     
-    /**** contact page pricing ****/
+    /**** contact page pricing tablets ****/
     #pricing-col, #form-col {
       height: 416px;
       padding: 2% 0 2% 0;
@@ -321,9 +327,9 @@ legend {
     .pricing {
       padding: 5%;
     }
-    /**** end contact page pricing ****/
+    /**** end contact page pricing tablets ****/
 
-    /****contact form css****/
+    /****contact form css tablets ****/
     #contact-form {
       padding: 5%;
     }
@@ -337,8 +343,7 @@ legend {
     }
 
     #hz-email {
-      font-size: 7px;
-      width: 100%;
+      font-size: 11px;
     }
 } /****** end css for tablets *************/
 
@@ -464,6 +469,10 @@ legend {
 
     #contact-form input[type="text"], #contact-form input[type="email"], #contact-form input[type="tel"], #contact-form input[type="url"], #contact-form textarea {
       width:100%;
+    }
+
+    #hz-email {
+      font-size: 13px;
     }
    /*** end css for contact form ***/
 
