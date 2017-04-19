@@ -34,7 +34,9 @@
 
     <div class="col-sm-4" id="form-col">
       
-      <form id="contact-form" action="" method="post">
+      <!-- <form id="contact-form" action="" method="post"> -->
+      <form id="contact-form" action="https://formspree.io/soxfan1173@gmail.com"
+      method="POST">  
         <fieldset>
           <legend>CONTACT ME </legend>
         </fieldset>
