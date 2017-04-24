@@ -176,10 +176,6 @@ footer {
   height: auto;
 }
 
-#bio-col2 {
-  /*margin-top: 2%;*/
-}
-
 #bio-col3 {
   font-size: 12px;
   color: #000000;
@@ -189,13 +185,13 @@ footer {
   margin: 6% 5%;
   text-align: justify;
   letter-spacing: 0.1em;
-  /*border: 2px solid blue;*/
 }
 
 #contact-me {
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   color: #58dcee;
+  font-family: 'Dancing Script', cursive;
 }
 
 /**** contact page pricing and form columns sm device ****/
@@ -336,13 +332,13 @@ legend {
     }
    
     #aboutheather {
-      margin: 10% 5%;
+      margin: 6% 5%;
       letter-spacing: 0em;
       /*border: 2px solid blue;*/
     }
 
     #contact-me {
-      font-size: 14px;
+      font-size: 20px;
     }
     /**** end bio page tablets ****/
     
@@ -373,6 +369,8 @@ legend {
       font-size: 11px;
     }
 }
+/********************** end css for tablets **********************/
+
 /******************* css for medium devices **********************/
 @media screen and (min-width: 992px) {
 
@@ -448,8 +446,9 @@ legend {
     }
    
     #aboutheather {
-      margin: 15% 5%;
+      margin: 8% 5%;
       padding: 3%;
+      font-size: 14px;
       /*border: 2px solid blue;*/
     }
     /**** end bio page ****/
@@ -503,26 +502,30 @@ legend {
     }
    /*** end css for contact form ***/
 
-} /****** end css for tablet devices *********/
+} /****** end css for medium devices *********/
 
 @media screen and (min-width: 1200px) {
 
   .container {
-        width: 1170px;
-      }
+    width: 1170px;
+  }
 
   .row.content {
-      padding-bottom: 5px;
-      height: 604px;
-    }
+    padding-bottom: 5px;
+    height: 604px;
+  }
 
-    .logo {
-      height: 600px;
-    }
+  #index-logo-col, #bio-col1, #bio-col2, #bio-col3, #contact-col1 {
+    height: 600px;
+  }
 
-    .logo img {
-      margin: 50% 0px;
-    }
+  .logo {
+    height: 600px;
+  }
+
+  .logo img {
+      margin: 225px 0px;
+  }
   /**** bio page css ****/
 
   #bio-img img {
@@ -530,8 +533,9 @@ legend {
     margin: 5%;
   }
  
-  #aboutHeather {
-    margin: 2% 5%;
+  #aboutheather {
+    margin: 12% 5%;
+    font-size: 15px;
     /*border: 2px solid blue;*/
   }
 
