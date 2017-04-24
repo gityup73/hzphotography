@@ -33,12 +33,21 @@
 
 .navbar .navbar-nav .dropdown-menu {
   background-color: #58dcee;
+  color: black;
 }
 
 .navbar .navbar-nav .open .dropdown-menu li a {
   color: black;
 }
 
+.navbar .navbar-nav .dropdown-menu li a {
+  color: black;
+  background-color: #58dcee;
+}
+
+.dropdown:hover .dropdown-menu  {
+  display: block;
+}
 /************************* end navbar **************************/
 
 /**** mobile first css ****/
@@ -49,7 +58,6 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   letter-spacing: 0.15em;
-  /*-webkit-text-size-adjust: none;*/
 }
 
 .container {
@@ -178,8 +186,16 @@ footer {
 }
 
 #aboutheather {
-  margin: 5% 5%;
-  border: 2px solid blue;
+  margin: 6% 5%;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  /*border: 2px solid blue;*/
+}
+
+#contact-me {
+  font-size: 15px;
+  text-align: center;
+  color: #58dcee;
 }
 
 /**** contact page pricing and form columns sm device ****/
@@ -254,6 +270,11 @@ legend {
 
 /******************* css for tablets ********************/
 @media screen and (min-width: 768px)  {
+
+  .container {
+      width: 768px;
+    }
+
   .row.content {
       padding-bottom: 5px;
       height: 420px;
@@ -311,12 +332,17 @@ legend {
     }
     #bio-img img {
       width: 90%;
-      margin: 15% 5%;
+      margin: 11% 5%;
     }
    
     #aboutheather {
-      margin: 15% 5%;
-      border: 2px solid blue;
+      margin: 10% 5%;
+      letter-spacing: 0em;
+      /*border: 2px solid blue;*/
+    }
+
+    #contact-me {
+      font-size: 14px;
     }
     /**** end bio page tablets ****/
     
@@ -423,7 +449,8 @@ legend {
    
     #aboutheather {
       margin: 15% 5%;
-      border: 2px solid blue;
+      padding: 3%;
+      /*border: 2px solid blue;*/
     }
     /**** end bio page ****/
     
@@ -494,7 +521,7 @@ legend {
     }
 
     .logo img {
-      margin: 56% 0px;
+      margin: 50% 0px;
     }
   /**** bio page css ****/
 
@@ -505,7 +532,7 @@ legend {
  
   #aboutHeather {
     margin: 2% 5%;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
   }
 
   /**** end bio page ****/
