@@ -30,18 +30,9 @@
 	        <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">INFO</a>
 	        <ul class="dropdown-menu">
               <li><a href="bio.php">BIO</a></li>
-              <li><a href="contact_view.php">CONTACT</a></li>
+              <li><a href="contact.php">CONTACT</a></li>
 	        </ul>
 	      </li>
-
-	      <!-- <li class="dropdown" <?php if ($page=="bio") echo " class=\" active\""; ?>>
-	        <a class="dropdown-toggle disabled" data-toggle="dropdown" data-hover="dropdown" href="bio.php">BIO</a>
-            <ul class="dropdown-menu">
-              <li<?php if ($page=="contact") echo " class=\"active\""; ?>>
-                <a href="contact_view.php">CONTACT</a></li>
-            </ul>
-	      </li> -->
-	      
     	</ul>
     </div>
   </div>
