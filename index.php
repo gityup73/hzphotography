@@ -1,5 +1,10 @@
-<?php include('header.php'); ?>
+<!DOCTYPE html>
+<html>
 
+<head>
+	<title>Heather Zindars Photography | Charlotte Photographer </title>
+    <?php include('header.php'); ?>
+</head>
 <body>
 
 <?php $page = 'index'; include('menu.php'); ?>
@@ -8,7 +13,7 @@
 	<div class="row content no-gutter">
 
       <div class="col-sm-5" id="index-logo-col">
-          <p class="logo"><img class="image-responsive" src="images/logoblue.jpg"></p>
+          <p class="logo"><img class="image-responsive" src="images/logoblue.jpg" alt="Heather Zindars Photography logo"></p>
       </div> <!-- end col-sm-5 -->
 	      
       <div class="col-sm-7" id="index-imgs">

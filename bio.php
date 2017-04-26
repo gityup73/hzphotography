@@ -1,4 +1,10 @@
-<?php include('header.php'); ?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Heather Zindars Photography | About Me </title>
+    <?php include('header.php'); ?>
+</head>
 <body>
 <?php $page = 'bio'; include('menu.php'); ?>
 
@@ -6,7 +12,7 @@
   <div class="row content no-gutter" id="bio-row">
 
     <div class="col-sm-3" id="bio-col1">
-        <p class="logo"><img class="image-responsive" src="images/logoblue.jpg"></p>
+        <p class="logo"><img class="image-responsive" src="images/logoblue.jpg" alt="Heather Zindars Photography logo"></p>
     </div> <!-- end col-sm-4 -->
 
     <div class="col-sm-4" id="bio-col2">
@@ -26,9 +32,6 @@
   <?php include('footer.php'); ?>
 
 </div><!-- end container -->
-<script type="text/javascript"> // RELOADS WEBPAGE WHEN MOBILE ORIENTATION CHANGES  
-    window.onorientationchange = function() { 
-         window.location.reload();
-    };
+
 </body>
 </html>

@@ -1,4 +1,10 @@
-<?php include('header.php'); ?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Heather Zindars Photography | Pet Photography </title>
+    <?php include('header.php'); ?>
+</head>
 
 <body>
 

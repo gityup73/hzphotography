@@ -93,7 +93,7 @@ footer {
   padding: 0px;
 }
 
-/**** index/bio/contact page logo sm device ****/
+/**** index/bio/contact page logo mobile device ****/
 .logo {
   width: 100%;
   padding: 3px;
@@ -106,7 +106,7 @@ footer {
   height: auto;
 }
 
-/**** index page slideshow column sm device ****/
+/**** index page slideshow column mobile device ****/
 .col-sm-7 {
   padding: 0;
   min-height: 415px;
@@ -129,9 +129,9 @@ footer {
   padding: 3%;
   background-color: #fff;
 }
-/**** end index slideshow col sm device ****/
+/**** end index slideshow col mobile device ****/
 
-/**** carousel css on family/children/pets/sports pages sm device****/
+/**** carousel css on family/children/pets/sports pages mobile device****/
 #myCarousel {
 	background-color: #58dcee ;
   min-height: 320px;
@@ -168,9 +168,9 @@ footer {
   padding: 5px;
   border: 1px solid darkgrey;
 }
-/******** end carousel css sm device **********/
+/******** end carousel css mobile device **********/
 
-/**** bio page sm device ****/
+/**** bio page mobile device ****/
 .logo img, #bio-img img {
   min-width: 70%;
   height: auto;
@@ -194,7 +194,7 @@ footer {
   font-family: 'Dancing Script', cursive;
 }
 
-/**** contact page pricing and form columns sm device ****/
+/**** contact page pricing and form columns mobile device ****/
 .pricing, #form-col {
   text-align:center;
   padding: 0px;
@@ -203,20 +203,34 @@ footer {
   font-weight: bolder;
 }
 
+#pricing-hdr {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 0px;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  line-height: inherit;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
 legend {
   font-size: 14px;
   margin-bottom: 2px;
 }
 
-#divider {
+.divider {
   height: 1px;
   background-color: #e6e6e6;
   width: 100%;
 }
 
-/**** contact page form sm device ****/
-#glyphlinks {
-  margin-right: 10px;
+/**** contact form mobile device ****/
+.glyphlinks {
+  margin-left: 5px;
+  margin-right: 5px;
   color: #000000;
 }
 
@@ -262,7 +276,7 @@ legend {
       width: 100%;
       letter-spacing: 0;
     }
-/**** end contact page form sm device ****/
+/**** end contact form mobile device ****/
 
 /******************* css for tablets ********************/
 @media screen and (min-width: 768px)  {
@@ -457,10 +471,6 @@ legend {
     #pricing-col, #form-col {
       height: 511px;
       padding: 2% 0 2% 0;
-    }
-
-    .pricing {
-      padding: 5%;
     }
     /**** end contact page pricing ****/
 
