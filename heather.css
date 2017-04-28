@@ -25,14 +25,16 @@
 }
 
 .nav.navbar-nav li a{
-  color: #58dcee;
+  /*color: #58dcee;*/
+  color: #4bcee2;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   letter-spacing: 0.15em;
 }
 
 .navbar .navbar-nav .dropdown-menu {
-  background-color: #58dcee;
+  /*background-color: #58dcee;*/
+  background-color: #4bcee2;
   color: black;
 }
 
@@ -42,7 +44,8 @@
 
 .navbar .navbar-nav .dropdown-menu li a {
   color: black;
-  background-color: #58dcee;
+  /*background-color: #58dcee;*/
+  background-color: #4bcee2;
 }
 
 .dropdown:hover .dropdown-menu  {
@@ -71,7 +74,8 @@ body {
   position: absolute;
   width: 100%;
   height: auto;
-  border: 2px solid #58dcee;
+  /*border: 2px solid #58dcee;*/
+  border: 2px solid #4bcee2;
   border-radius: 2px;
   padding-bottom: 22px;
 }
@@ -85,6 +89,10 @@ footer {
   margin-top: 520px;
   text-align: center;
   height: 20px;
+}
+
+#footer-style {
+  font-size: 12px;
 }
 
 #index-logo-col, #bio-col1, #bio-col2, #bio-col3, #contact-col1 {
@@ -183,15 +191,19 @@ footer {
 
 #aboutheather {
   margin: 6% 5%;
-  text-align: justify;
+  text-align: right;
+  font-style: italic;
   letter-spacing: 0.1em;
 }
 
 #contact-me {
   font-size: 18px;
   text-align: center;
-  color: #58dcee;
   font-family: 'Dancing Script', cursive;
+}
+
+#contact-me a {
+  color: #4bcee2;
 }
 
 /**** contact page pricing and form columns mobile device ****/
@@ -225,6 +237,7 @@ legend {
   height: 1px;
   background-color: #e6e6e6;
   width: 100%;
+  margin-bottom: 0px;
 }
 
 /**** contact form mobile device ****/
@@ -362,7 +375,7 @@ legend {
     }
 
     .pricing {
-      padding: 5%;
+      padding-top: 5%;
     }
     /**** end contact page pricing tablets ****/
 

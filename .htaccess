@@ -1,0 +1,23 @@
+Rewrite Engine On
+
+#block bad bots
+RewriteCond %{HTTP_USER_AGENT} ^Wget [OR]
+RewriteRule .* -[F,L]
+
+#prevent img theft
+RewriteCond %{HTTP_REFERER}!^$
+RewriteCond %{HTTP_REFERER}!^http(s)?://(www\.)?heatherzindarsphotography.com [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
+
+#redirect www to non-www
+RewriteCond %{HTTP_HOST} !^heatherzindarsphotography\.com$
+RewriteRule (.*) http(s)://heatherzindarsphotography.com/$1 [R=301,L]
+
+#url rewrites
+RewriteRule ^home/?$ index.php
+RewriteRule ^family/?$ family.php
+RewriteRule ^children/?$ children.php
+RewriteRule ^pets/?$ pets.php
+RewriteRule ^sports/?$ sports.php
+RewriteRule ^bio/?$ bio.php
+RewriteRule ^contact/?$ contact.php
