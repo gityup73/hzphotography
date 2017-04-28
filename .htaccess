@@ -1,6 +1,6 @@
-Rewrite Engine On
+RewriteEngine On
 
-#block bad bots
-RewriteCond %{HTTP_USER_AGENT} ^Wget [OR]
-RewriteRule .* -[F,L]
+#remove php file extensions
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
