@@ -12,25 +12,25 @@
     <div class="collapse navbar-collapse" id="myNavbar">
     	<ul class="nav navbar-nav">
           <li<?php if ($page=="index") echo " class=\"active\""; ?>>
-            <a href="index.php">HOME</a></li>
+            <a href="index">HOME</a></li>
 
           <li<?php if ($page=="family") echo " class=\"active\""; ?>>
-	        <a href="family.php">FAMILY</a></li>
+	        <a href="family">FAMILY</a></li>
 
 	      <li<?php if ($page=="children") echo " class=\"active\""; ?>>
-	        <a href="children.php">CHILDREN</a></li>
+	        <a href="children">CHILDREN</a></li>
 
 	      <li<?php if ($page=="pets") echo " class=\"active\""; ?>>
-	        <a href="pets.php">PETS</a></li> 
+	        <a href="pets">PETS</a></li> 
 
 	      <li<?php if ($page=="sports") echo " class=\"active\""; ?>>
-	        <a href="sports.php">SPORTS</a></li>
+	        <a href="sports">SPORTS</a></li>
 
 	      <li class="dropdown">
 	        <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" href="#">INFO</a>
 	        <ul class="dropdown-menu">
-              <li><a href="bio.php">BIO</a></li>
-              <li><a href="contact.php">CONTACT</a></li>
+              <li><a href="bio">BIO</a></li>
+              <li><a href="contact">CONTACT</a></li>
 	        </ul>
 	      </li>
     	</ul>
